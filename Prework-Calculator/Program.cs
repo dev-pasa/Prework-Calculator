@@ -10,8 +10,10 @@ namespace Prework_Calculator
             Console.Read();
         }
 
+        //This is the add function
         public static int Add(int num1, int num2) => num1 + num2;
 
+        //This is the divide funtion
         public static double Divide(double num1, double num2)
         {
             try
@@ -25,8 +27,10 @@ namespace Prework_Calculator
             }
         }
 
+        //This is the multiply function
         public static int Multiply(int num1, int num2) => num1 / num2;
 
+        //This is the Substract function
         public static int Substract(int num1, int num2) => num1 - num2;
     }
 }
